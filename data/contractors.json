@@ -1,0 +1,370 @@
+[
+  {
+    "company": "Simpsons Handyman and Cleaning Service",
+    "contact": null,
+    "phone": "859-202-9892",
+    "email": "simpsonhcllc@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Southstar Improvements.",
+    "contact": "Miguel Rubio",
+    "phone": "(704) 296-7391",
+    "email": "southstarimprovementslllc@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "B and A Home Improvements",
+    "contact": "Billy Norris",
+    "phone": "(839) 214-3564",
+    "email": "billynorris261@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "JT's Lawncare and Handyman Services",
+    "contact": "Jay Taylor",
+    "phone": "980-328-6382",
+    "email": "jtslawncarehs@624@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Deese Concrete and Construction LLC",
+    "contact": "Austin Deese",
+    "phone": "(980) 328-8163",
+    "email": "austindeese1281@gmail.com",
+    "service": "Lawn Care",
+    "website": "https//deeseconcreteconstruction.com"
+  },
+  {
+    "company": "JustCallNate",
+    "contact": null,
+    "phone": "(704) 412-1542",
+    "email": "JustCallNate@gmail.com",
+    "service": "Movers",
+    "website": null
+  },
+  {
+    "company": "Smith Home Maintenance & Repairs",
+    "contact": null,
+    "phone": "803-288-1821",
+    "email": "joseph.smith@icloud.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Auto Repair Mom",
+    "contact": null,
+    "phone": "(803) 228-0250",
+    "email": "info@autorepairmom.com",
+    "service": "Auto Repair",
+    "website": null
+  },
+  {
+    "company": "Kennedy's Removal and Hauling LLC",
+    "contact": "Andrew Kennedy",
+    "phone": "(704) 763-4844",
+    "email": "Andrewjlkennedy@gmail.com",
+    "service": "Junk",
+    "website": null
+  },
+  {
+    "company": "Great Movers",
+    "contact": "David",
+    "phone": null,
+    "email": "GreatMoversNc@yahoo.com",
+    "service": "Movers",
+    "website": null
+  },
+  {
+    "company": "Speedy Removal Service",
+    "contact": null,
+    "phone": null,
+    "email": "jroc7085@gmail.com",
+    "service": "Junk",
+    "website": null
+  },
+  {
+    "company": "Codys Handyman Service",
+    "contact": "Cody",
+    "phone": "(803) 230-4950",
+    "email": "cody.amanda0623@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Ramirez Painting",
+    "contact": null,
+    "phone": "704-557-5127",
+    "email": "jesus.zepeta@gmail.com",
+    "service": "Painting",
+    "website": null
+  },
+  {
+    "company": "S&M Carolina Construction",
+    "contact": null,
+    "phone": "(704) 773-3388",
+    "email": "info@smcarolinaconstruction.com",
+    "service": "Contruction",
+    "website": "https://smcarolinaconstruction.com/"
+  },
+  {
+    "company": "Plumbing Connection",
+    "contact": null,
+    "phone": "704-825-9399",
+    "email": "service@plumbing-connection.com",
+    "service": "Plumbing",
+    "website": "https://plumbing-connection.com/"
+  },
+  {
+    "company": "ASAP Handyman",
+    "contact": null,
+    "phone": "(704) 456-8695",
+    "email": "asaphandyman704@gmail.com",
+    "service": "Painting",
+    "website": null
+  },
+  {
+    "company": "Easy Painting Service",
+    "contact": null,
+    "phone": "(704) 502-6659",
+    "email": "Easypaintingservice@gmail.com",
+    "service": null,
+    "website": null
+  },
+  {
+    "company": "NCWF Habitat Builders",
+    "contact": null,
+    "phone": null,
+    "email": "info@habitatbuilders.org",
+    "service": null,
+    "website": null
+  },
+  {
+    "company": "Agora Window Cleaning & Pressure Washing",
+    "contact": null,
+    "phone": "(704) 698-7941",
+    "email": "arogawindowcleaning@gmail.com",
+    "service": "Window Washing Service",
+    "website": null
+  },
+  {
+    "company": "Reliable House Cleaning",
+    "contact": null,
+    "phone": null,
+    "email": "SydneyJones.Smile@gmail.com",
+    "service": "House Cleaning",
+    "website": null
+  },
+  {
+    "company": "WuScaping",
+    "contact": null,
+    "phone": "(980) 556-2553",
+    "email": "WuScaping@gmail.com",
+    "service": "Lawn Service",
+    "website": null
+  },
+  {
+    "company": "Outdoor Natures Inn",
+    "contact": null,
+    "phone": "(980) 298-1093",
+    "email": "outdoornaturesinn@gmail.com",
+    "service": "Lawn Service",
+    "website": null
+  },
+  {
+    "company": "TruROOF",
+    "contact": null,
+    "phone": "(803) 878-7663",
+    "email": "info@truroof.com",
+    "service": "Roof",
+    "website": null
+  },
+  {
+    "company": "GEMINI CONSTRUCTION",
+    "contact": null,
+    "phone": "704.400.6826",
+    "email": "info@geminiconstructioninc.com",
+    "service": "Construction",
+    "website": null
+  },
+  {
+    "company": "RJ Renovations and Handyman Services",
+    "contact": null,
+    "phone": "(980) 425-0660",
+    "email": "rsjochim630@gmail.com",
+    "service": "Handyman",
+    "website": "Nice work"
+  },
+  {
+    "company": "ClearDrop Solutions",
+    "contact": null,
+    "phone": "(704) 905-9544",
+    "email": "Cleardropsolutionsessex@gmail.com",
+    "service": "Plumbing",
+    "website": null
+  },
+  {
+    "company": "Homeaglow",
+    "contact": null,
+    "phone": null,
+    "email": "cleardropplumbing@gmail.com",
+    "service": "Cleaning",
+    "website": null
+  },
+  {
+    "company": "Just Call Nate !",
+    "contact": null,
+    "phone": "704-412-1542",
+    "email": "JustCallNate704@gmail.com",
+    "service": "Moving and Hauling",
+    "website": null
+  },
+  {
+    "company": "Perfection Painting Pros",
+    "contact": null,
+    "phone": "(704) 200-4268",
+    "email": "ian@perfectionpaintingpros.com",
+    "service": "Painting",
+    "website": null
+  },
+  {
+    "company": "3N1",
+    "contact": null,
+    "phone": "(704) 288-5930",
+    "email": "office@3n1hvac.com",
+    "service": "HVAC",
+    "website": null
+  },
+  {
+    "company": "Climate Expert LLC",
+    "contact": null,
+    "phone": "(704) 957-0507",
+    "email": "hvac@ClimateExpertNC.com",
+    "service": "HVAC",
+    "website": null
+  },
+  {
+    "company": "Johanna's Cleaning Services",
+    "contact": null,
+    "phone": "(704) 449-2774",
+    "email": "machadogisela867@gmail.com",
+    "service": "House Cleaning Services",
+    "website": null
+  },
+  {
+    "company": "Charlotte Pro Pressure Washing",
+    "contact": null,
+    "phone": "(440) 902-2225",
+    "email": "Washingunited@gmail.com",
+    "service": "Pressure Washing",
+    "website": null
+  },
+  {
+    "company": "Speedy Removal Service",
+    "contact": null,
+    "phone": "(803) 322-3359",
+    "email": "jroc7085@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Remodelacion Mejia",
+    "contact": null,
+    "phone": "(980) 230-8686",
+    "email": "remodelacionmejia1@gmail.com",
+    "service": "Flooring Service",
+    "website": null
+  },
+  {
+    "company": "Mains Renovations",
+    "contact": null,
+    "phone": "(839) 500-4529",
+    "email": "mainconstruct@gmail.com",
+    "service": "Carpenter",
+    "website": null
+  },
+  {
+    "company": "Charlotte Pro Pressure Washing",
+    "contact": null,
+    "phone": "(440) 902-2225",
+    "email": "Washingunited@gmail.com",
+    "service": "Power Washing",
+    "website": null
+  },
+  {
+    "company": "David Aldred Electric",
+    "contact": "David Aldred",
+    "phone": "(704) 201-9048",
+    "email": "daveald68@gmail.com",
+    "service": "Electric",
+    "website": null
+  },
+  {
+    "company": "Picture Perfect Painting",
+    "contact": "Carl Herrman",
+    "phone": "(704) 819-6797",
+    "email": "Red845@icloud.com",
+    "service": "Painting",
+    "website": null
+  },
+  {
+    "company": "TruBlue of Union County",
+    "contact": null,
+    "phone": "(980) 355-2450",
+    "email": "wlinker@trublueally.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Handy Andy Handyman",
+    "contact": null,
+    "phone": null,
+    "email": "Andrew4763@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "JJ construction 203",
+    "contact": null,
+    "phone": "(203) 810-8897",
+    "email": "jjconstruction203@gmail.com",
+    "service": "Handyman",
+    "website": null
+  },
+  {
+    "company": "Krazy Klean",
+    "contact": null,
+    "phone": "(803) 810-1140",
+    "email": "krazykleankk@gmail.com",
+    "service": "Cleaning",
+    "website": "https://krazykleanbiz.wixsite.com/krazy-klean?fbclid=IwAR2rAj0mPteHPr8QTo5HEmnGdZLilLXfd5e9O6aQ_BSffKQC9XRIc8G1RS0"
+  },
+  {
+    "company": "Immaculate Interior Cleaning Services LLC",
+    "contact": null,
+    "phone": "(980) 319-6826",
+    "email": "Immaculateinteriorcleaningclt@gmail.com",
+    "service": "Cleaning",
+    "website": null
+  },
+  {
+    "company": "NewLyfe cleaning LLC",
+    "contact": null,
+    "phone": "(803) 992-6984",
+    "email": "newlyfecleaning39@gmail.com",
+    "service": "Cleaning",
+    "website": null
+  },
+  {
+    "company": "Priority Garage Doors",
+    "contact": "Gin J.",
+    "phone": "980-230-9145",
+    "email": null,
+    "service": "Garage Doors",
+    "website": null
+  }
+]

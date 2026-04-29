@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "55 and Older"
+  },
+  {
+    "id": 2,
+    "name": "Club House"
+  },
+  {
+    "id": 3,
+    "name": "Dog Park"
+  },
+  {
+    "id": 4,
+    "name": "Fitness Center"
+  },
+  {
+    "id": 5,
+    "name": "Gated Community"
+  },
+  {
+    "id": 6,
+    "name": "Golf Course"
+  },
+  {
+    "id": 7,
+    "name": "Indoor Pool"
+  },
+  {
+    "id": 8,
+    "name": "Lake Access"
+  },
+  {
+    "id": 9,
+    "name": "Outdoor Pool"
+  },
+  {
+    "id": 10,
+    "name": "Playground"
+  },
+  {
+    "id": 11,
+    "name": "Pond"
+  },
+  {
+    "id": 12,
+    "name": "Recreation Area"
+  },
+  {
+    "id": 13,
+    "name": "RV/Boat Storage"
+  },
+  {
+    "id": 15,
+    "name": "Sidewalks"
+  },
+  {
+    "id": 16,
+    "name": "Sport Court"
+  },
+  {
+    "id": 17,
+    "name": "Stables"
+  },
+  {
+    "id": 19,
+    "name": "Tennis Courts"
+  }
+]

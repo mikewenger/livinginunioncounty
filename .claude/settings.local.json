@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -iE \"\\\\.xml$\")",
+      "Bash(grep -v \"^$\")",
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import pandas; print\\('ok', pandas.__version__\\)\")",
+      "Bash(pip list *)",
+      "PowerShell(python -c \"import pandas; print\\(pandas.__version__\\)\")",
+      "PowerShell(\\(New-Object -ComObject Scripting.FileSystemObject\\).GetFolder\\(\"H:\\\\My Drive\\\\1 - Real Estate\\\\livinginunioncounty\"\\).ShortPath)"
+    ]
+  }
+}

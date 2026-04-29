@@ -1,0 +1,2274 @@
+[
+  {
+    "id": 1,
+    "name": "Antioch Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "antioch-elementary"
+  },
+  {
+    "id": 2,
+    "name": "Benton Heights Elementary School of the Arts",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "benton-heights-elementary-school-of-the-arts"
+  },
+  {
+    "id": 3,
+    "name": "East Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "east-elementary"
+  },
+  {
+    "id": 4,
+    "name": "Fairview Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "fairview-elementary"
+  },
+  {
+    "id": 5,
+    "name": "Hemby Bridge Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "hemby-bridge-elementary"
+  },
+  {
+    "id": 6,
+    "name": "Indian Trail Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "indian-trail-elementary"
+  },
+  {
+    "id": 7,
+    "name": "Kensington Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "kensington-elementary"
+  },
+  {
+    "id": 8,
+    "name": "Marshville Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "marshville-elementary"
+  },
+  {
+    "id": 9,
+    "name": "Marvin Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "marvin-elementary"
+  },
+  {
+    "id": 10,
+    "name": "New Salem Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "new-salem-elementary"
+  },
+  {
+    "id": 11,
+    "name": "New Town Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "new-town-elementary"
+  },
+  {
+    "id": 12,
+    "name": "Poplin Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "poplin-elementary"
+  },
+  {
+    "id": 13,
+    "name": "Porter Ridge Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "porter-ridge-elementary"
+  },
+  {
+    "id": 14,
+    "name": "Prospect Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "prospect-elementary"
+  },
+  {
+    "id": 15,
+    "name": "Rea View Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "rea-view-elementary"
+  },
+  {
+    "id": 16,
+    "name": "Rock Rest Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "rock-rest-elementary"
+  },
+  {
+    "id": 17,
+    "name": "Rocky River Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "rocky-river-elementary"
+  },
+  {
+    "id": 18,
+    "name": "Sandy Ridge Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "sandy-ridge-elementary"
+  },
+  {
+    "id": 19,
+    "name": "Sardis Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "sardis-elementary"
+  },
+  {
+    "id": 20,
+    "name": "Shiloh Valley Elementary (3-5)",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "shiloh-valley-elementary-3-5"
+  },
+  {
+    "id": 21,
+    "name": "Shiloh Valley Primary (K-2)",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "shiloh-valley-primary-k-2"
+  },
+  {
+    "id": 22,
+    "name": "Stallings Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "stallings-elementary"
+  },
+  {
+    "id": 23,
+    "name": "Union Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "union-elementary"
+  },
+  {
+    "id": 24,
+    "name": "Unionville Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "unionville-elementary"
+  },
+  {
+    "id": 25,
+    "name": "Walter Bickett Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "walter-bickett-elementary"
+  },
+  {
+    "id": 26,
+    "name": "Waxhaw Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "waxhaw-elementary"
+  },
+  {
+    "id": 27,
+    "name": "Weddington Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "weddington-elementary"
+  },
+  {
+    "id": 28,
+    "name": "Wesley Chapel Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "wesley-chapel-elementary"
+  },
+  {
+    "id": 29,
+    "name": "Western Union Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "western-union-elementary"
+  },
+  {
+    "id": 30,
+    "name": "Wingate Elementary",
+    "type": "Elementary",
+    "county": "Union",
+    "state": "NC",
+    "slug": "wingate-elementary"
+  },
+  {
+    "id": 31,
+    "name": "Cuthbertson Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "cuthbertson-middle"
+  },
+  {
+    "id": 32,
+    "name": "East Union Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "east-union-middle"
+  },
+  {
+    "id": 33,
+    "name": "Marvin Ridge Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "marvin-ridge-middle"
+  },
+  {
+    "id": 34,
+    "name": "Monroe middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "monroe-middle"
+  },
+  {
+    "id": 35,
+    "name": "Parkwood Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "parkwood-middle"
+  },
+  {
+    "id": 36,
+    "name": "Piedmont Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "piedmont-middle"
+  },
+  {
+    "id": 37,
+    "name": "Porter Ridge Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "porter-ridge-middle"
+  },
+  {
+    "id": 38,
+    "name": "South Providence School",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "south-providence-school"
+  },
+  {
+    "id": 39,
+    "name": "Sun Valley Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "sun-valley-middle"
+  },
+  {
+    "id": 40,
+    "name": "Weddington Middle",
+    "type": "Middle",
+    "county": "Union",
+    "state": "NC",
+    "slug": "weddington-middle"
+  },
+  {
+    "id": 41,
+    "name": "Central Academy of Technology & Arts",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "central-academy-of-technology-arts"
+  },
+  {
+    "id": 42,
+    "name": "Cuthbertson High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "cuthbertson-high"
+  },
+  {
+    "id": 43,
+    "name": "Forest Hills High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "forest-hills-high"
+  },
+  {
+    "id": 44,
+    "name": "Marvin Ridge High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "marvin-ridge-high"
+  },
+  {
+    "id": 45,
+    "name": "Monroe High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "monroe-high"
+  },
+  {
+    "id": 46,
+    "name": "Parkwood High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "parkwood-high"
+  },
+  {
+    "id": 47,
+    "name": "Piedmont High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "piedmont-high"
+  },
+  {
+    "id": 48,
+    "name": "Porter Ridge High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "porter-ridge-high"
+  },
+  {
+    "id": 49,
+    "name": "South Providence School",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "south-providence-school"
+  },
+  {
+    "id": 50,
+    "name": "Sun Valley High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "sun-valley-high"
+  },
+  {
+    "id": 51,
+    "name": "Union County Early College",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "union-county-early-college"
+  },
+  {
+    "id": 52,
+    "name": "Weddington High",
+    "type": "High",
+    "county": "Union",
+    "state": "NC",
+    "slug": "weddington-high"
+  },
+  {
+    "id": 53,
+    "name": "South Providence School",
+    "type": "High - Alternative",
+    "county": "Union",
+    "state": "NC",
+    "slug": "south-providence-school"
+  },
+  {
+    "id": 54,
+    "name": "Walter Bickett Education Center",
+    "type": "High - Alternative",
+    "county": "Union",
+    "state": "NC",
+    "slug": "walter-bickett-education-center"
+  },
+  {
+    "id": 55,
+    "name": "Wolfe School (Year-Round School)",
+    "type": "High - Alternative",
+    "county": "Union",
+    "state": "NC",
+    "slug": "wolfe-school-year-round-school"
+  },
+  {
+    "id": 56,
+    "name": "Albemarle Road Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "albemarle-road-elementary-school"
+  },
+  {
+    "id": 57,
+    "name": "Allenbrook Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "allenbrook-elementary-school"
+  },
+  {
+    "id": 58,
+    "name": "Ashley Park Pre K-8 School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "ashley-park-pre-k-8-school"
+  },
+  {
+    "id": 59,
+    "name": "Bain Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "bain-elementary-school"
+  },
+  {
+    "id": 60,
+    "name": "Ballantyne Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "ballantyne-elementary-school"
+  },
+  {
+    "id": 61,
+    "name": "Barnette Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "barnette-elementary-school"
+  },
+  {
+    "id": 62,
+    "name": "Berewick Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "berewick-elementary-school"
+  },
+  {
+    "id": 63,
+    "name": "Berryhill School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "berryhill-school"
+  },
+  {
+    "id": 64,
+    "name": "Beverly Woods Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "beverly-woods-elementary-school"
+  },
+  {
+    "id": 65,
+    "name": "Billingsville/Cotswold Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "billingsville-cotswold-elementary-school"
+  },
+  {
+    "id": 66,
+    "name": "Blythe Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "blythe-elementary-school"
+  },
+  {
+    "id": 67,
+    "name": "Briarwood Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "briarwood-academy"
+  },
+  {
+    "id": 68,
+    "name": "Bruns Avenue Elementary",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "bruns-avenue-elementary"
+  },
+  {
+    "id": 69,
+    "name": "Walter G. Byers School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "walter-g-byers-school"
+  },
+  {
+    "id": 70,
+    "name": "Chantilly Montessori School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "chantilly-montessori-school"
+  },
+  {
+    "id": 71,
+    "name": "Charlotte East Language Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-east-language-academy"
+  },
+  {
+    "id": 72,
+    "name": "Clear Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "clear-creek-elementary-school"
+  },
+  {
+    "id": 73,
+    "name": "Collinswood Language Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "collinswood-language-academy"
+  },
+  {
+    "id": 74,
+    "name": "Cornelius Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "cornelius-elementary-school"
+  },
+  {
+    "id": 75,
+    "name": "David Cox Road Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "david-cox-road-elementary-school"
+  },
+  {
+    "id": 76,
+    "name": "Croft Community School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "croft-community-school"
+  },
+  {
+    "id": 77,
+    "name": "Crown Point Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "crown-point-elementary-school"
+  },
+  {
+    "id": 78,
+    "name": "Davidson K-8 School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "davidson-k-8-school"
+  },
+  {
+    "id": 79,
+    "name": "Marie G. Davis School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "marie-g-davis-school"
+  },
+  {
+    "id": 80,
+    "name": "Devonshire Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "devonshire-elementary-school"
+  },
+  {
+    "id": 81,
+    "name": "Dilworth Elementary",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "dilworth-elementary"
+  },
+  {
+    "id": 82,
+    "name": "Eastover Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "eastover-elementary-school"
+  },
+  {
+    "id": 83,
+    "name": "Elizabeth Lane Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "elizabeth-lane-elementary-school"
+  },
+  {
+    "id": 84,
+    "name": "Elizabeth Traditional Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "elizabeth-traditional-elementary-school"
+  },
+  {
+    "id": 85,
+    "name": "Elon Park Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "elon-park-elementary-school"
+  },
+  {
+    "id": 86,
+    "name": "Endhaven Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "endhaven-elementary-school"
+  },
+  {
+    "id": 87,
+    "name": "First Ward Creative Arts Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "first-ward-creative-arts-academy"
+  },
+  {
+    "id": 88,
+    "name": "Governors' Village STEM Academy (Lower)",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "governors-village-stem-academy-lower"
+  },
+  {
+    "id": 89,
+    "name": "Governors' Village STEM Academy (Upper)",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "governors-village-stem-academy-upper"
+  },
+  {
+    "id": 90,
+    "name": "Grand Oak Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "grand-oak-elementary-school"
+  },
+  {
+    "id": 91,
+    "name": "Greenway Park Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "greenway-park-elementary-school"
+  },
+  {
+    "id": 92,
+    "name": "Joseph W. Grier Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "joseph-w-grier-academy"
+  },
+  {
+    "id": 93,
+    "name": "J.H. Gunn Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "j-h-gunn-elementary-school"
+  },
+  {
+    "id": 94,
+    "name": "Hawk Ridge Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "hawk-ridge-elementary-school"
+  },
+  {
+    "id": 95,
+    "name": "Hickory Grove Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "hickory-grove-elementary-school"
+  },
+  {
+    "id": 96,
+    "name": "Hidden Valley Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "hidden-valley-elementary-school"
+  },
+  {
+    "id": 97,
+    "name": "Highland Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "highland-creek-elementary-school"
+  },
+  {
+    "id": 98,
+    "name": "Highland Mill Montessori Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "highland-mill-montessori-elementary-school"
+  },
+  {
+    "id": 99,
+    "name": "Highland Renaissance Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "highland-renaissance-academy"
+  },
+  {
+    "id": 100,
+    "name": "Hornets Nest Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "hornets-nest-elementary-school"
+  },
+  {
+    "id": 101,
+    "name": "Huntersville Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "huntersville-elementary-school"
+  },
+  {
+    "id": 102,
+    "name": "Huntingtowne Farms Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "huntingtowne-farms-elementary-school"
+  },
+  {
+    "id": 103,
+    "name": "Idlewild Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "idlewild-elementary-school"
+  },
+  {
+    "id": 104,
+    "name": "Irwin Academic Center",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "irwin-academic-center"
+  },
+  {
+    "id": 105,
+    "name": "Lake Wylie Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "lake-wylie-elementary-school"
+  },
+  {
+    "id": 106,
+    "name": "Lansdowne Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "lansdowne-elementary-school"
+  },
+  {
+    "id": 107,
+    "name": "Lebanon Road Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "lebanon-road-elementary-school"
+  },
+  {
+    "id": 108,
+    "name": "Lincoln Heights Montessori School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "lincoln-heights-montessori-school"
+  },
+  {
+    "id": 109,
+    "name": "Long Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "long-creek-elementary-school"
+  },
+  {
+    "id": 110,
+    "name": "Mallard Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mallard-creek-elementary-school"
+  },
+  {
+    "id": 111,
+    "name": "Matthews Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "matthews-elementary-school"
+  },
+  {
+    "id": 112,
+    "name": "McAlpine Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mcalpine-elementary-school"
+  },
+  {
+    "id": 113,
+    "name": "McKee Road Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mckee-road-elementary-school"
+  },
+  {
+    "id": 114,
+    "name": "Merry Oaks International Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "merry-oaks-international-academy"
+  },
+  {
+    "id": 115,
+    "name": "Mint Hill Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mint-hill-elementary-school"
+  },
+  {
+    "id": 116,
+    "name": "Montclaire Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "montclaire-elementary-school"
+  },
+  {
+    "id": 117,
+    "name": "Mountain Island Lake Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mountain-island-lake-academy"
+  },
+  {
+    "id": 118,
+    "name": "Myers Park Traditional Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "myers-park-traditional-elementary-school"
+  },
+  {
+    "id": 119,
+    "name": "Nations Ford Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "nations-ford-elementary-school"
+  },
+  {
+    "id": 120,
+    "name": "Newell Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "newell-elementary-school"
+  },
+  {
+    "id": 121,
+    "name": "North Academy of World Languages",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "north-academy-of-world-languages"
+  },
+  {
+    "id": 122,
+    "name": "Oakdale Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "oakdale-elementary-school"
+  },
+  {
+    "id": 123,
+    "name": "Oakhurst STEAM Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "oakhurst-steam-academy"
+  },
+  {
+    "id": 124,
+    "name": "Oaklawn Language Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "oaklawn-language-academy"
+  },
+  {
+    "id": 125,
+    "name": "Olde Providence Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "olde-providence-elementary-school"
+  },
+  {
+    "id": 126,
+    "name": "Lawrence Orr Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "lawrence-orr-elementary-school"
+  },
+  {
+    "id": 127,
+    "name": "Palisades Park Elementary",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "palisades-park-elementary"
+  },
+  {
+    "id": 128,
+    "name": "Park Road Montessori School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "park-road-montessori-school"
+  },
+  {
+    "id": 129,
+    "name": "Charles H. Parker Academic Center",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charles-h-parker-academic-center"
+  },
+  {
+    "id": 130,
+    "name": "Parkside Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "parkside-elementary-school"
+  },
+  {
+    "id": 131,
+    "name": "Paw Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "paw-creek-elementary-school"
+  },
+  {
+    "id": 132,
+    "name": "Pineville Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "pineville-elementary-school"
+  },
+  {
+    "id": 133,
+    "name": "Pinewood Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "pinewood-elementary-school"
+  },
+  {
+    "id": 134,
+    "name": "Piney Grove Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "piney-grove-elementary-school"
+  },
+  {
+    "id": 135,
+    "name": "Polo Ridge Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "polo-ridge-elementary-school"
+  },
+  {
+    "id": 136,
+    "name": "Providence Spring Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "providence-spring-elementary-school"
+  },
+  {
+    "id": 137,
+    "name": "Rama Road Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "rama-road-elementary-school"
+  },
+  {
+    "id": 138,
+    "name": "Rea Farms STEAM Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "rea-farms-steam-academy"
+  },
+  {
+    "id": 139,
+    "name": "Reedy Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "reedy-creek-elementary-school"
+  },
+  {
+    "id": 140,
+    "name": "Reid Park Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "reid-park-academy"
+  },
+  {
+    "id": 141,
+    "name": "Renaissance West STEAM Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "renaissance-west-steam-academy"
+  },
+  {
+    "id": 142,
+    "name": "River Gate Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "river-gate-elementary-school"
+  },
+  {
+    "id": 143,
+    "name": "River Oaks Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "river-oaks-academy"
+  },
+  {
+    "id": 144,
+    "name": "Selwyn Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "selwyn-elementary-school"
+  },
+  {
+    "id": 145,
+    "name": "Shamrock Gardens Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "shamrock-gardens-elementary-school"
+  },
+  {
+    "id": 146,
+    "name": "Sharon Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "sharon-elementary-school"
+  },
+  {
+    "id": 147,
+    "name": "Smithfield Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "smithfield-elementary-school"
+  },
+  {
+    "id": 148,
+    "name": "South Academy of International Languages (S.A.I.L.)",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "south-academy-of-international-languages-s-a-i-l"
+  },
+  {
+    "id": 149,
+    "name": "South Pine Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "south-pine-academy"
+  },
+  {
+    "id": 150,
+    "name": "Starmount Academy of Excellence",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "starmount-academy-of-excellence"
+  },
+  {
+    "id": 151,
+    "name": "Statesville Road Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "statesville-road-elementary-school"
+  },
+  {
+    "id": 152,
+    "name": "Steele Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "steele-creek-elementary-school"
+  },
+  {
+    "id": 153,
+    "name": "Sterling Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "sterling-elementary-school"
+  },
+  {
+    "id": 154,
+    "name": "Stoney Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "stoney-creek-elementary-school"
+  },
+  {
+    "id": 155,
+    "name": "Thomasboro Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "thomasboro-academy"
+  },
+  {
+    "id": 156,
+    "name": "Torrence Creek Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "torrence-creek-elementary-school"
+  },
+  {
+    "id": 157,
+    "name": "Tuckaseegee Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "tuckaseegee-elementary-school"
+  },
+  {
+    "id": 158,
+    "name": "University Meadows Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "university-meadows-elementary-school"
+  },
+  {
+    "id": 159,
+    "name": "University Park Creative Arts School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "university-park-creative-arts-school"
+  },
+  {
+    "id": 160,
+    "name": "Dorothy J. Vaughan Academy of Technology",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "dorothy-j-vaughan-academy-of-technology"
+  },
+  {
+    "id": 161,
+    "name": "Villa Heights Elementary",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "villa-heights-elementary"
+  },
+  {
+    "id": 162,
+    "name": "J.V. Washam Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "j-v-washam-elementary-school"
+  },
+  {
+    "id": 163,
+    "name": "Westerly Hills Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "westerly-hills-academy"
+  },
+  {
+    "id": 164,
+    "name": "Whitewater Academy",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "whitewater-academy"
+  },
+  {
+    "id": 165,
+    "name": "Winding Springs Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "winding-springs-elementary-school"
+  },
+  {
+    "id": 166,
+    "name": "Windsor Park Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "windsor-park-elementary-school"
+  },
+  {
+    "id": 167,
+    "name": "Winget Park Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "winget-park-elementary-school"
+  },
+  {
+    "id": 168,
+    "name": "Winterfield Elementary School",
+    "type": "Elementary",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "winterfield-elementary-school"
+  },
+  {
+    "id": 169,
+    "name": "Albemarle Road Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "albemarle-road-middle-school"
+  },
+  {
+    "id": 170,
+    "name": "J.M. Alexander Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "j-m-alexander-middle-school"
+  },
+  {
+    "id": 171,
+    "name": "Ashley Park Pre K-8 School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "ashley-park-pre-k-8-school"
+  },
+  {
+    "id": 172,
+    "name": "Bailey Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "bailey-middle-school"
+  },
+  {
+    "id": 173,
+    "name": "Berryhill School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "berryhill-school"
+  },
+  {
+    "id": 174,
+    "name": "Francis Bradley Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "francis-bradley-middle-school"
+  },
+  {
+    "id": 175,
+    "name": "Walter G. Byers School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "walter-g-byers-school"
+  },
+  {
+    "id": 176,
+    "name": "Carmel Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "carmel-middle-school"
+  },
+  {
+    "id": 177,
+    "name": "Charlotte East Language Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-east-language-academy"
+  },
+  {
+    "id": 178,
+    "name": "Charlotte-Mecklenburg Virtual School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-mecklenburg-virtual-school"
+  },
+  {
+    "id": 179,
+    "name": "Cochrane Collegiate / iMeck Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "cochrane-collegiate-imeck-academy"
+  },
+  {
+    "id": 180,
+    "name": "Collinswood Language Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "collinswood-language-academy"
+  },
+  {
+    "id": 181,
+    "name": "Community House Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "community-house-middle-school"
+  },
+  {
+    "id": 182,
+    "name": "Coulwood STEM Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "coulwood-stem-academy"
+  },
+  {
+    "id": 183,
+    "name": "Crestdale Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "crestdale-middle-school"
+  },
+  {
+    "id": 184,
+    "name": "Davidson K-8 School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "davidson-k-8-school"
+  },
+  {
+    "id": 185,
+    "name": "Marie G. Davis School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "marie-g-davis-school"
+  },
+  {
+    "id": 186,
+    "name": "Druid Hills Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "druid-hills-academy"
+  },
+  {
+    "id": 187,
+    "name": "Eastway Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "eastway-middle-school"
+  },
+  {
+    "id": 188,
+    "name": "Governors' Village STEM Academy (Upper)",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "governors-village-stem-academy-upper"
+  },
+  {
+    "id": 189,
+    "name": "Alexander Graham Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "alexander-graham-middle-school"
+  },
+  {
+    "id": 190,
+    "name": "Kennedy Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "kennedy-middle-school"
+  },
+  {
+    "id": 191,
+    "name": "Martin Luther King, Jr. Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "martin-luther-king-jr-middle-school"
+  },
+  {
+    "id": 192,
+    "name": "James Martin Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "james-martin-middle-school"
+  },
+  {
+    "id": 193,
+    "name": "McClintock Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mcclintock-middle-school"
+  },
+  {
+    "id": 194,
+    "name": "Mint Hill Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mint-hill-middle-school"
+  },
+  {
+    "id": 195,
+    "name": "Mountain Island Lake Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mountain-island-lake-academy"
+  },
+  {
+    "id": 196,
+    "name": "North Academy of World Languages",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "north-academy-of-world-languages"
+  },
+  {
+    "id": 197,
+    "name": "Northeast Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "northeast-middle-school"
+  },
+  {
+    "id": 198,
+    "name": "Northridge Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "northridge-middle-school"
+  },
+  {
+    "id": 199,
+    "name": "Northwest School of the Arts",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "northwest-school-of-the-arts"
+  },
+  {
+    "id": 200,
+    "name": "Oaklawn Language Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "oaklawn-language-academy"
+  },
+  {
+    "id": 201,
+    "name": "Piedmont Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "piedmont-middle-school"
+  },
+  {
+    "id": 202,
+    "name": "Quail Hollow Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "quail-hollow-middle-school"
+  },
+  {
+    "id": 203,
+    "name": "Randolph Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "randolph-middle-school"
+  },
+  {
+    "id": 204,
+    "name": "Ranson Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "ranson-middle-school"
+  },
+  {
+    "id": 205,
+    "name": "Rea Farms STEAM Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "rea-farms-steam-academy"
+  },
+  {
+    "id": 206,
+    "name": "Renaissance West STEAM Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "renaissance-west-steam-academy"
+  },
+  {
+    "id": 207,
+    "name": "Ridge Road Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "ridge-road-middle-school"
+  },
+  {
+    "id": 208,
+    "name": "Jay M. Robinson Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "jay-m-robinson-middle-school"
+  },
+  {
+    "id": 209,
+    "name": "Sedgefield Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "sedgefield-middle-school"
+  },
+  {
+    "id": 210,
+    "name": "South Academy of International Languages (S.A.I.L.)",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "south-academy-of-international-languages-s-a-i-l"
+  },
+  {
+    "id": 211,
+    "name": "South Charlotte Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "south-charlotte-middle-school"
+  },
+  {
+    "id": 212,
+    "name": "Southwest Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "southwest-middle-school"
+  },
+  {
+    "id": 213,
+    "name": "Thomasboro Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "thomasboro-academy"
+  },
+  {
+    "id": 214,
+    "name": "Whitewater Middle School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "whitewater-middle-school"
+  },
+  {
+    "id": 215,
+    "name": "J.T. Williams Secondary Montessori School",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "j-t-williams-secondary-montessori-school"
+  },
+  {
+    "id": 216,
+    "name": "Wilson STEM Academy",
+    "type": "Middle",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "wilson-stem-academy"
+  },
+  {
+    "id": 217,
+    "name": "Ardrey Kell High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "ardrey-kell-high-school"
+  },
+  {
+    "id": 218,
+    "name": "Phillip O. Berry Academy of Technology",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "phillip-o-berry-academy-of-technology"
+  },
+  {
+    "id": 219,
+    "name": "David W. Butler High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "david-w-butler-high-school"
+  },
+  {
+    "id": 220,
+    "name": "Cato Middle College High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "cato-middle-college-high-school"
+  },
+  {
+    "id": 221,
+    "name": "Central Piedmont Early College",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "central-piedmont-early-college"
+  },
+  {
+    "id": 222,
+    "name": "Julius L. Chambers High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "julius-l-chambers-high-school"
+  },
+  {
+    "id": 223,
+    "name": "Charlotte Engineering Early College",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-engineering-early-college"
+  },
+  {
+    "id": 224,
+    "name": "Charlotte-Mecklenburg Virtual School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-mecklenburg-virtual-school"
+  },
+  {
+    "id": 225,
+    "name": "Charlotte Teacher Early College",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-teacher-early-college"
+  },
+  {
+    "id": 226,
+    "name": "Cochrane Collegiate / iMeck Academy",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "cochrane-collegiate-imeck-academy"
+  },
+  {
+    "id": 227,
+    "name": "East Mecklenburg High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "east-mecklenburg-high-school"
+  },
+  {
+    "id": 228,
+    "name": "Garinger High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "garinger-high-school"
+  },
+  {
+    "id": 229,
+    "name": "Harding University High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "harding-university-high-school"
+  },
+  {
+    "id": 230,
+    "name": "Harper Middle College High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "harper-middle-college-high-school"
+  },
+  {
+    "id": 231,
+    "name": "Hawthorne Academy of Health Sciences",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "hawthorne-academy-of-health-sciences"
+  },
+  {
+    "id": 232,
+    "name": "Hopewell High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "hopewell-high-school"
+  },
+  {
+    "id": 233,
+    "name": "William Amos Hough High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "william-amos-hough-high-school"
+  },
+  {
+    "id": 234,
+    "name": "Independence High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "independence-high-school"
+  },
+  {
+    "id": 235,
+    "name": "Levine Middle College High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "levine-middle-college-high-school"
+  },
+  {
+    "id": 236,
+    "name": "Mallard Creek High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "mallard-creek-high-school"
+  },
+  {
+    "id": 237,
+    "name": "Merancas Middle College @ CPCC",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "merancas-middle-college-cpcc"
+  },
+  {
+    "id": 238,
+    "name": "Myers Park High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "myers-park-high-school"
+  },
+  {
+    "id": 239,
+    "name": "North Mecklenburg High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "north-mecklenburg-high-school"
+  },
+  {
+    "id": 240,
+    "name": "Northwest School of the Arts",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "northwest-school-of-the-arts"
+  },
+  {
+    "id": 241,
+    "name": "Olympic High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "olympic-high-school"
+  },
+  {
+    "id": 242,
+    "name": "Palisades High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "palisades-high-school"
+  },
+  {
+    "id": 243,
+    "name": "Providence High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "providence-high-school"
+  },
+  {
+    "id": 244,
+    "name": "Rocky River High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "rocky-river-high-school"
+  },
+  {
+    "id": 245,
+    "name": "South Mecklenburg High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "south-mecklenburg-high-school"
+  },
+  {
+    "id": 246,
+    "name": "West Charlotte High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "west-charlotte-high-school"
+  },
+  {
+    "id": 247,
+    "name": "West Mecklenburg High School",
+    "type": "High",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "west-mecklenburg-high-school"
+  },
+  {
+    "id": 248,
+    "name": "J.T. Williams Secondary Montessori School",
+    "type": "High - Alternative",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "j-t-williams-secondary-montessori-school"
+  },
+  {
+    "id": 249,
+    "name": "Charlotte-Mecklenburg Academy",
+    "type": "High - Alternative",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "charlotte-mecklenburg-academy"
+  },
+  {
+    "id": 250,
+    "name": "Metro School",
+    "type": "High - Alternative",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "metro-school"
+  },
+  {
+    "id": 251,
+    "name": "Turning Point Academy",
+    "type": "High - Alternative",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "slug": "turning-point-academy"
+  },
+  {
+    "id": 252,
+    "name": "Cotton Belt Elementary School",
+    "type": "Elementary",
+    "county": "York",
+    "state": "SC",
+    "slug": "cotton-belt-elementary-school"
+  },
+  {
+    "id": 253,
+    "name": "Floyd D Johnson Technology Center",
+    "type": "High",
+    "county": "York",
+    "state": "SC",
+    "slug": "floyd-d-johnson-technology-center"
+  },
+  {
+    "id": 254,
+    "name": "Harold C Johnson Elementary School",
+    "type": "Elementary",
+    "county": "York",
+    "state": "SC",
+    "slug": "harold-c-johnson-elementary-school"
+  },
+  {
+    "id": 255,
+    "name": "Hickory Grove-Sharon Elementary School",
+    "type": "Elementary",
+    "county": "York",
+    "state": "SC",
+    "slug": "hickory-grove-sharon-elementary-school"
+  },
+  {
+    "id": 256,
+    "name": "Hunter Street Elementary School",
+    "type": "Elementary",
+    "county": "York",
+    "state": "SC",
+    "slug": "hunter-street-elementary-school"
+  },
+  {
+    "id": 257,
+    "name": "Jefferson Elementary School",
+    "type": "Elementary",
+    "county": "York",
+    "state": "SC",
+    "slug": "jefferson-elementary-school"
+  },
+  {
+    "id": 258,
+    "name": "York Comprehensive High School",
+    "type": "High",
+    "county": "York",
+    "state": "SC",
+    "slug": "york-comprehensive-high-school"
+  },
+  {
+    "id": 259,
+    "name": "York Intermediate School",
+    "type": "Intermediate",
+    "county": "York",
+    "state": "SC",
+    "slug": "york-intermediate-school"
+  },
+  {
+    "id": 260,
+    "name": "York Middle School",
+    "type": "Middle",
+    "county": "York",
+    "state": "SC",
+    "slug": "york-middle-school"
+  },
+  {
+    "id": 261,
+    "name": "York One Academy",
+    "type": "Alternative",
+    "county": "York",
+    "state": "SC",
+    "slug": "york-one-academy"
+  },
+  {
+    "id": 262,
+    "name": "Brooklyn Springs Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "brooklyn-springs-elementary"
+  },
+  {
+    "id": 263,
+    "name": "Buford Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "buford-elementary"
+  },
+  {
+    "id": 264,
+    "name": "Clinton Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "clinton-elementary"
+  },
+  {
+    "id": 265,
+    "name": "Discovery School/GT",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "discovery-school-gt"
+  },
+  {
+    "id": 266,
+    "name": "Erwin Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "erwin-elementary"
+  },
+  {
+    "id": 267,
+    "name": "Harrisburg Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "harrisburg-elementary"
+  },
+  {
+    "id": 268,
+    "name": "Heath Springs Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "heath-springs-elementary"
+  },
+  {
+    "id": 269,
+    "name": "Indian Land Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "indian-land-elementary"
+  },
+  {
+    "id": 270,
+    "name": "Indian Land Intermediate",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "indian-land-intermediate"
+  },
+  {
+    "id": 271,
+    "name": "Kershaw Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "kershaw-elementary"
+  },
+  {
+    "id": 272,
+    "name": "McDonald Green Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "mcdonald-green-elementary"
+  },
+  {
+    "id": 273,
+    "name": "North Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "north-elementary"
+  },
+  {
+    "id": 274,
+    "name": "Van Wyck Elementary",
+    "type": "Elementary",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "van-wyck-elementary"
+  },
+  {
+    "id": 275,
+    "name": "A.R. Rucker Middle",
+    "type": "Middle",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "a-r-rucker-middle"
+  },
+  {
+    "id": 276,
+    "name": "Andrew Jackson Middle",
+    "type": "Middle",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "andrew-jackson-middle"
+  },
+  {
+    "id": 277,
+    "name": "Buford Middle",
+    "type": "Middle",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "buford-middle"
+  },
+  {
+    "id": 278,
+    "name": "Indian Land Middle",
+    "type": "Middle",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "indian-land-middle"
+  },
+  {
+    "id": 279,
+    "name": "South Middle",
+    "type": "Middle",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "south-middle"
+  },
+  {
+    "id": 280,
+    "name": "Andrew Jackson High",
+    "type": "High",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "andrew-jackson-high"
+  },
+  {
+    "id": 281,
+    "name": "Buford High",
+    "type": "High",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "buford-high"
+  },
+  {
+    "id": 282,
+    "name": "Indian Land High",
+    "type": "High",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "indian-land-high"
+  },
+  {
+    "id": 283,
+    "name": "Lancaster High",
+    "type": "High",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "lancaster-high"
+  },
+  {
+    "id": 284,
+    "name": "Lancaster Career Center",
+    "type": "High",
+    "county": "Lancaster",
+    "state": "SC",
+    "slug": "lancaster-career-center"
+  }
+]
