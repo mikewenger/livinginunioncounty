@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
-import fs from "fs";
-import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -28,36 +26,46 @@ const TOPICS = [
   "HOA communities in Union County — what buyers should know",
 ];
 
-export async function POST(req: NextRequest) {
+function checkAuth(req: NextRequest): boolean {
   const authHeader = req.headers.get("authorization");
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  return authHeader === `Bearer ${process.env.CRON_SECRET}`;
+}
+
+async function generate() {
+  const today = new Date().toISOString().split("T")[0];
+  const filePath = `content/blog/${today}.md`;
+
+  const owner = process.env.GITHUB_OWNER ?? "mikewenger";
+  const repo = process.env.GITHUB_REPO ?? "livinginunioncounty";
+  const token = process.env.GITHUB_TOKEN;
+
+  if (!token) {
+    throw new Error("GITHUB_TOKEN env var not set");
   }
 
-  try {
-    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-    const today = new Date().toISOString().split("T")[0];
-    const blogDir = path.join(process.cwd(), "content", "blog");
-    fs.mkdirSync(blogDir, { recursive: true });
+  // Check if post already exists
+  const checkRes = await fetch(
+    `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`,
+    { headers: { Authorization: `Bearer ${token}`, "User-Agent": "livinginunioncounty" } }
+  );
+  if (checkRes.ok) {
+    return { message: "Already generated today", slug: today };
+  }
 
-    const outPath = path.join(blogDir, `${today}.md`);
-    if (fs.existsSync(outPath)) {
-      return NextResponse.json({ message: "Already generated today" });
-    }
+  // Pick topic by day of year
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000
+  );
+  const topic = TOPICS[dayOfYear % TOPICS.length];
 
-    // Pick a topic — rotate through by day of year
-    const dayOfYear = Math.floor(
-      (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000
-    );
-    const topic = TOPICS[dayOfYear % TOPICS.length];
-
-    const response = await client.messages.create({
-      model: "claude-sonnet-4-6",
-      max_tokens: 1024,
-      messages: [
-        {
-          role: "user",
-          content: `Write an informative, friendly blog post about: "${topic}"
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const response = await client.messages.create({
+    model: "claude-sonnet-4-6",
+    max_tokens: 1024,
+    messages: [
+      {
+        role: "user",
+        content: `Write an informative, friendly blog post about: "${topic}"
 
 The post is for people who are considering moving to Union County, NC (near Charlotte).
 Author is Mike Wenger, a local real estate professional.
@@ -69,28 +77,72 @@ Format the post in Markdown with:
 
 Keep it ~500 words. Tone: helpful, knowledgeable local expert. No hype.
 Start directly with the title.`,
-        },
-      ],
-    });
+      },
+    ],
+  });
 
-    const raw = response.content[0].type === "text" ? response.content[0].text : "";
-    const lines = raw.trim().split("\n");
-    const title = lines[0].replace(/^#+\s*/, "").trim();
-    const excerpt = lines[1]?.trim() ?? "";
-    const body = lines.slice(2).join("\n").trim();
+  const raw = response.content[0].type === "text" ? response.content[0].text : "";
+  const lines = raw.trim().split("\n");
+  const title = lines[0].replace(/^#+\s*/, "").trim();
+  const excerpt = lines[1]?.trim() ?? "";
+  const body = lines.slice(2).join("\n").trim();
 
-    const frontmatter = `---
+  const fileContent = `---
 title: "${title.replace(/"/g, '\\"')}"
 date: "${today}"
 excerpt: "${excerpt.replace(/"/g, '\\"')}"
 author: "Mike Wenger"
 ---
 
-`;
+${body}`;
 
-    fs.writeFileSync(outPath, frontmatter + body, "utf-8");
+  // Commit to GitHub
+  const commitRes = await fetch(
+    `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`,
+    {
+      method: "PUT",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+        "User-Agent": "livinginunioncounty",
+      },
+      body: JSON.stringify({
+        message: `Blog: ${title}`,
+        content: Buffer.from(fileContent, "utf-8").toString("base64"),
+      }),
+    }
+  );
 
-    return NextResponse.json({ ok: true, slug: today, title });
+  if (!commitRes.ok) {
+    const err = await commitRes.text();
+    throw new Error(`GitHub commit failed: ${err}`);
+  }
+
+  return { ok: true, slug: today, title };
+}
+
+// Vercel crons send GET requests
+export async function GET(req: NextRequest) {
+  if (!checkAuth(req)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+  try {
+    const result = await generate();
+    return NextResponse.json(result);
+  } catch (err) {
+    console.error("Blog generation error:", err);
+    return NextResponse.json({ error: "Generation failed" }, { status: 500 });
+  }
+}
+
+// Keep POST for manual triggering
+export async function POST(req: NextRequest) {
+  if (!checkAuth(req)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+  try {
+    const result = await generate();
+    return NextResponse.json(result);
   } catch (err) {
     console.error("Blog generation error:", err);
     return NextResponse.json({ error: "Generation failed" }, { status: 500 });
