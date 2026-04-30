@@ -38,6 +38,27 @@ export interface Contractor {
   website: string | null;
 }
 
+export interface ExpertReview {
+  reviewer: string;
+  date: string;
+  rating: number;
+  text: string;
+  address?: string;
+}
+
+export interface NeighborhoodExpert {
+  neighborhoodSlug: string;
+  name: string;
+  photo: string;
+  brokerage: string;
+  phone: string;
+  email: string;
+  website?: string;
+  bio: string;
+  services: string[];
+  reviews: ExpertReview[];
+}
+
 export interface BlogPost {
   slug: string;
   title: string;

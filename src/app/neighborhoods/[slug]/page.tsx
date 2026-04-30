@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getNeighborhood, getNeighborhoods, formatPrice } from "@/lib/data";
+import Image from "next/image";
+import { getNeighborhood, getNeighborhoods, getNeighborhoodExpert, formatPrice } from "@/lib/data";
 import type { Metadata } from "next";
 
 interface Props {
@@ -25,6 +26,7 @@ export default async function NeighborhoodDetailPage({ params }: Props) {
   const { slug } = await params;
   const n = getNeighborhood(slug);
   if (!n) notFound();
+  const expert = getNeighborhoodExpert(slug);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -133,6 +135,93 @@ export default async function NeighborhoodDetailPage({ params }: Props) {
           View Listings
         </Link>
       </div>
+
+      {/* Neighborhood Expert */}
+      {expert ? (
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-8">
+          <div className="bg-[#1e3a5f] px-6 py-3">
+            <h2 className="text-white font-bold text-lg">Neighborhood Expert</h2>
+          </div>
+          <div className="p-6">
+            <div className="flex flex-col sm:flex-row gap-6 mb-6">
+              {expert.photo && (
+                <div className="flex-shrink-0">
+                  <Image
+                    src={expert.photo}
+                    alt={expert.name}
+                    width={120}
+                    height={120}
+                    className="rounded-full object-cover w-28 h-28"
+                  />
+                </div>
+              )}
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-[#1e3a5f]">{expert.name}</h3>
+                <p className="text-gray-500 text-sm mb-2">{expert.brokerage}</p>
+                <p className="text-gray-700 text-sm mb-3">{expert.bio}</p>
+                <div className="flex flex-wrap gap-3 text-sm">
+                  <a href={`tel:${expert.phone}`} className="text-[#1e3a5f] font-semibold hover:underline">
+                    {expert.phone}
+                  </a>
+                  <a href={`mailto:${expert.email}`} className="text-[#1e3a5f] font-semibold hover:underline">
+                    {expert.email}
+                  </a>
+                  {expert.website && (
+                    <a href={expert.website} target="_blank" rel="noopener noreferrer" className="text-[#1e3a5f] font-semibold hover:underline">
+                      Website →
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Services */}
+            {expert.services.length > 0 && (
+              <div className="mb-6">
+                <h4 className="text-sm font-bold text-gray-700 uppercase tracking-wide mb-2">Services</h4>
+                <div className="flex flex-wrap gap-2">
+                  {expert.services.map((s) => (
+                    <span key={s} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Reviews */}
+            {expert.reviews.length > 0 && (
+              <div>
+                <h4 className="text-sm font-bold text-gray-700 uppercase tracking-wide mb-3">
+                  Client Reviews in {n.name}
+                </h4>
+                <div className="space-y-4">
+                  {expert.reviews.map((r, i) => (
+                    <div key={i} className="bg-gray-50 rounded-lg p-4">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-yellow-400 text-sm">{"★".repeat(r.rating)}{"☆".repeat(5 - r.rating)}</span>
+                        <span className="text-gray-500 text-xs">{r.date}</span>
+                        {r.address && <span className="text-gray-400 text-xs">· {r.address}</span>}
+                      </div>
+                      <p className="text-gray-700 text-sm">{r.text}</p>
+                      <p className="text-gray-500 text-xs mt-1">— {r.reviewer}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      ) : (
+        <div className="bg-gray-50 border border-dashed border-gray-300 rounded-xl p-6 mb-8 text-center">
+          <p className="text-gray-500 text-sm">
+            No neighborhood expert yet for {n.name}.{" "}
+            <Link href={`/become-neighborhood-expert?neighborhood=${encodeURIComponent(n.name)}`} className="text-[#1e3a5f] font-semibold hover:underline">
+              Apply to be the expert →
+            </Link>
+          </p>
+        </div>
+      )}
 
       {/* Contact CTA */}
       <div className="border-2 border-[#e8a020] rounded-xl p-6 text-center">

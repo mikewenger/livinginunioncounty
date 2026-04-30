@@ -1,8 +1,9 @@
-import { Neighborhood, School, Amenity, Contractor } from "@/types";
+import { Neighborhood, School, Amenity, Contractor, NeighborhoodExpert } from "@/types";
 import neighborhoodsData from "../../data/neighborhoods.json";
 import schoolsData from "../../data/schools.json";
 import amenitiesData from "../../data/amenities.json";
 import contractorsData from "../../data/contractors.json";
+import expertsData from "../../data/neighborhood-experts.json";
 
 export function getNeighborhoods(): Neighborhood[] {
   return neighborhoodsData as Neighborhood[];
@@ -22,6 +23,11 @@ export function getAmenities(): Amenity[] {
 
 export function getContractors(): Contractor[] {
   return contractorsData as Contractor[];
+}
+
+export function getNeighborhoodExpert(slug: string): NeighborhoodExpert | undefined {
+  const experts = expertsData as Record<string, NeighborhoodExpert>;
+  return experts[slug];
 }
 
 export function getNeighborhoodsBySchool(
