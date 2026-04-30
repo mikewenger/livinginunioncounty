@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function getStreetViewUrl(name: string, city: string | null): string {
   const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-  const location = encodeURIComponent(`${name} neighborhood entrance, ${city ?? "Union County"}, NC`);
+  const location = encodeURIComponent(`${name}, ${city ?? "Union County"}, NC`);
   return `https://maps.googleapis.com/maps/api/streetview?size=1200x400&location=${location}&fov=90&pitch=0&key=${apiKey}`;
 }
 
