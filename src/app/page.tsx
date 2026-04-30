@@ -15,6 +15,7 @@ export default function HomePage() {
           fill
           className="object-cover"
           priority
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-[#1e3a5f]/70" />
         <div className="relative max-w-3xl mx-auto">
