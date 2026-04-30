@@ -7,9 +7,8 @@ interface Props {
 }
 
 export default function NeighborhoodHero({ name, city, customImage }: Props) {
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-  const location = encodeURIComponent(`${name}, ${city ?? "Union County"}, NC`);
-  const src = customImage ?? `https://maps.googleapis.com/maps/api/streetview?size=1200x400&location=${location}&fov=90&pitch=0&key=${apiKey}`;
+  const src = customImage
+    ?? `/api/streetview?name=${encodeURIComponent(name)}&city=${encodeURIComponent(city ?? "Union County")}`;
 
   return (
     <div className="relative w-full h-56 md:h-72 rounded-2xl overflow-hidden mb-6 bg-gray-200">
@@ -23,9 +22,7 @@ export default function NeighborhoodHero({ name, city, customImage }: Props) {
       <div className="absolute bottom-0 left-0 p-6">
         <h1 className="text-4xl font-bold text-white drop-shadow">{name}</h1>
         {city && (
-          <p className="text-blue-200 text-lg">
-            {city}, NC
-          </p>
+          <p className="text-blue-200 text-lg">{city}, NC</p>
         )}
       </div>
     </div>
