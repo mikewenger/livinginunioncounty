@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { getNeighborhood, getNeighborhoods, getNeighborhoodExpert, formatPrice } from "@/lib/data";
+import { getNeighborhood, getNeighborhoods, getNeighborhoodExpert, getNeighborhoodImage, formatPrice } from "@/lib/data";
 import type { Metadata } from "next";
 
 interface Props {
@@ -33,7 +33,8 @@ export default async function NeighborhoodDetailPage({ params }: Props) {
   const n = getNeighborhood(slug);
   if (!n) notFound();
   const expert = getNeighborhoodExpert(slug);
-  const streetViewUrl = getStreetViewUrl(n.name, n.city);
+  const customImage = getNeighborhoodImage(slug);
+  const heroImage = customImage ?? getStreetViewUrl(n.name, n.city);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -49,7 +50,7 @@ export default async function NeighborhoodDetailPage({ params }: Props) {
       {/* Hero photo */}
       <div className="relative w-full h-56 md:h-72 rounded-2xl overflow-hidden mb-6 bg-gray-200">
         <Image
-          src={streetViewUrl}
+          src={heroImage}
           alt={`${n.name} neighborhood entrance`}
           fill
           className="object-cover"

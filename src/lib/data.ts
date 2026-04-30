@@ -4,6 +4,7 @@ import schoolsData from "../../data/schools.json";
 import amenitiesData from "../../data/amenities.json";
 import contractorsData from "../../data/contractors.json";
 import expertsData from "../../data/neighborhood-experts.json";
+import neighborhoodImagesData from "../../data/neighborhood-images.json";
 
 export function getNeighborhoods(): Neighborhood[] {
   return neighborhoodsData as Neighborhood[];
@@ -28,6 +29,11 @@ export function getContractors(): Contractor[] {
 export function getNeighborhoodExpert(slug: string): NeighborhoodExpert | undefined {
   const experts = expertsData as Record<string, NeighborhoodExpert>;
   return experts[slug];
+}
+
+export function getNeighborhoodImage(slug: string): string | undefined {
+  const images = neighborhoodImagesData as Record<string, string>;
+  return images[slug];
 }
 
 export function getNeighborhoodsBySchool(
