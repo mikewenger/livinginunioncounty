@@ -6,7 +6,7 @@ export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const name = searchParams.get("name") ?? "";
   const city = searchParams.get("city") ?? "Union County";
-  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const apiKey = process.env.GOOGLE_MAPS_API_KEY ?? process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
   const location = encodeURIComponent(`${name}, ${city}, NC`);
   const url = `https://maps.googleapis.com/maps/api/streetview?size=1200x400&location=${location}&fov=90&pitch=0&key=${apiKey}`;
