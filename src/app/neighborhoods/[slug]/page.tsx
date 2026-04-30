@@ -22,11 +22,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function getStreetViewUrl(name: string, city: string | null): string {
+  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const location = encodeURIComponent(`${name} neighborhood entrance, ${city ?? "Union County"}, NC`);
+  return `https://maps.googleapis.com/maps/api/streetview?size=1200x400&location=${location}&fov=90&pitch=0&key=${apiKey}`;
+}
+
 export default async function NeighborhoodDetailPage({ params }: Props) {
   const { slug } = await params;
   const n = getNeighborhood(slug);
   if (!n) notFound();
   const expert = getNeighborhoodExpert(slug);
+  const streetViewUrl = getStreetViewUrl(n.name, n.city);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -39,12 +46,25 @@ export default async function NeighborhoodDetailPage({ params }: Props) {
         <span className="text-gray-800">{n.name}</span>
       </nav>
 
-      <h1 className="text-4xl font-bold text-[#1e3a5f] mb-2">{n.name}</h1>
-      {n.city && (
-        <p className="text-gray-500 text-lg mb-8">
-          {n.city}, NC {n.zip && `• ${n.zip}`}
-        </p>
-      )}
+      {/* Hero photo */}
+      <div className="relative w-full h-56 md:h-72 rounded-2xl overflow-hidden mb-6 bg-gray-200">
+        <Image
+          src={streetViewUrl}
+          alt={`${n.name} neighborhood entrance`}
+          fill
+          className="object-cover"
+          unoptimized
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+        <div className="absolute bottom-0 left-0 p-6">
+          <h1 className="text-4xl font-bold text-white drop-shadow">{n.name}</h1>
+          {n.city && (
+            <p className="text-blue-200 text-lg">
+              {n.city}, NC {n.zip && `• ${n.zip}`}
+            </p>
+          )}
+        </div>
+      </div>
 
       {/* Stats grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
