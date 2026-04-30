@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getNeighborhoods, formatPrice } from "@/lib/data";
 
 export default function HomePage() {
@@ -7,11 +8,16 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section
-        className="relative text-white py-24 px-4 text-center"
-        style={{ background: "linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%)" }}
-      >
-        <div className="max-w-3xl mx-auto">
+      <section className="relative text-white py-24 px-4 text-center overflow-hidden">
+        <Image
+          src="/union-county-hero.png"
+          alt="Union County NC"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-[#1e3a5f]/70" />
+        <div className="relative max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Welcome to Union County, NC
           </h1>
