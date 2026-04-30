@@ -8,7 +8,6 @@ const NAV = [
   { label: "Amenities", href: "/amenities" },
   { label: "Homes For Sale", href: "/homes-for-sale" },
   { label: "Blog", href: "/blog" },
-  { label: "Contractors", href: "/contractors" },
   { label: "Contact", href: "/contact" },
 ];
 
