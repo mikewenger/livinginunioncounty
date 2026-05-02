@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
-    "@googlemaps/js-api-loader": "^2.0.2",
     "@vercel/blob": "^2.3.3",
     "gray-matter": "^4.0.3",
     "marked": "^18.0.2",
@@ -21,7 +20,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/google.maps": "^3.64.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
