@@ -76,24 +76,6 @@ export default function SchoolsPage() {
       {/* Results */}
       {selected && (
         <>
-          {/* School Street View */}
-          <div className="relative w-full h-56 md:h-72 rounded-2xl overflow-hidden mb-6 bg-gray-200">
-            <iframe
-              key={selected}
-              src={`https://www.google.com/maps/embed/v1/streetview?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&location=${encodeURIComponent(`${selected} ${typeLabel} School, Union County, NC`)}&fov=80`}
-              className="w-full h-full border-0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title={`${selected} ${typeLabel} School Street View`}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-            <div className="absolute bottom-0 left-0 p-5 pointer-events-none">
-              <h2 className="text-2xl font-bold text-white drop-shadow">{selected} {typeLabel} School</h2>
-              <p className="text-blue-200 text-sm">Union County, NC</p>
-            </div>
-          </div>
-
           <h2 className="text-xl font-bold text-[#1e3a5f] mb-4">
             Neighborhoods served by {selected} {typeLabel} School ({results.length})
           </h2>
